@@ -4,15 +4,35 @@
     padding: 0;
 }
 body{
-    background: #fec107;
-    padding: 0 10px;
+    background: #171717;
 }
-.container{
+.from-container{
     max-width: 500px;
     width: 100%;
+    margin: 60px auto 0px;
+    background: #233942;
+}
+h3, p{
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+}
+form > label{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 5px auto;
+    font-size: large;
+    color: white;
+}
+form > input{
+    display: block;
+    width: 80%;
     margin: auto;
-    border: 1px solid blue;
-    margin: 20px auto;
-    padding: 30px;
-    box-shadow: ;
+    padding: 10px;
+}
+.gender{
+    width: 80%;
+    margin: auto;
+    color: white;
 }

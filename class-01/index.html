@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="user define">
+    <meta name="keywords" content="user define">
+    <meta name="author" content="user define">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
@@ -8,39 +11,27 @@
 </head>
 <body>
     <div class="container">
-        <div class="title">
-            Registration Form
-        </div>
-        <div class="inputField">
-            <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname" value="">
-        </div>
-        <div class="inputField">
-            <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" value="">
-        </div>
-        <div class="inputField">
-            <label for="emailAddress">Email Address</label>
-            <input type="email" name="emailAddress" id="emailAddress" value="">
-        </div>
-        <div class="inputField">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" value="">
-        </div>
-        <div class="inputField">
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="password" name="confirmPassword" id="confirmPassword" value="">
-        </div>
-        <div class="inputField">
-            <label for="gender">Gender</label>
-            <div class="customSelect">
-                <select name="" id="">
-                    <option value="">Select</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="others">Others</option>
-                </select>
-            </div>
+        <div class="from-container">
+            <h3>Registration</h3>
+            <p>Please provide all those information</p>
+            <form action="" method="get">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" value="" placeholder="Jone" autofocus>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" value="" placeholder="Due">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" name="email" id="emailAddress" value="" placeholder="jone@example.com">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="" placeholder="********">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" value="" placeholder="********">
+                <div class="gender"><br>
+                    <label for="gender">Gender: </label>
+                    <input type="radio" name="gender" id="gender" value="male"> Male
+                    <input type="radio" name="gender" id="gender" value="female"> Female
+                </div><br>
+                <input type="submit" name="submit" id="submit" value="Submit"><br><br>
+            </form>
         </div>
     </div>
 </body>
