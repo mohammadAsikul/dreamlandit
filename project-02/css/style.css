@@ -92,6 +92,10 @@ span a:hover{
 
 
 /* Forget */
+.forget-container{
+    width: 100%;
+    height: 600px;
+}
 
 .forget-header-h3{
     text-align: center;
@@ -101,4 +105,8 @@ span a:hover{
 form label p{
     text-align: justify;
     margin-bottom: 10px;
+}
+#forget-pass-emailAddress{
+    border: none;
+    padding: 12px;
 }
