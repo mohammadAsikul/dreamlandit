@@ -116,6 +116,20 @@ form label p{
     text-align: center;
     margin-bottom: 20px;
 }
-#agree{
 
+.reg-login {
+    padding: 10px;
+    background: #2C5363;
+    opacity: 1.0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+.reg-login:hover{
+    background: #1B252E;
+    color: white;
+}
+.reg-login a{
+    display: block;
 }
