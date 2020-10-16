@@ -1,0 +1,117 @@
+*{ box-sizing: border-box; margin: 0px; padding: 0px;}
+
+body{font-family: 'Doppio One', sans-serif;}
+
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width: 100%;}
+
+[class*='col-']{
+    float: left;
+     /* border: 1px solid gray; */
+}
+[class*='col-5']{
+    margin: 20px 0px 20px 6%;
+}
+[class*='col-5']:hover{
+    box-shadow: 3px 2px 10px #e2ddcc;
+}
+.row::after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+/* .container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+} */
+
+.logo-nav-height{ height: 50px;}
+.header-height{ height: 550px;}
+.body-title-height{ height: 80px;}
+.body-sml-title-height{ height: 40px;}
+.body-element-height{ height: 550px;}
+.body-sml-element-height{ height: 300px;}
+.footer-height{ height: 80px;}
+
+/*header-section start*/
+.header-bg-color{ background: #FEC608;}
+
+/* logo-section */
+.logo-img{
+    height: 35px;
+    margin: 5px 0px 0px 100px;
+}
+/* header-secton end */
+
+/*navigation-section start*/
+nav > ul{
+    list-style-type: none;overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+nav > ul > li{
+	float: left;
+	width: 16.66%;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	/*display: block;*/
+	padding: 14px 0px;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	line-height: 48px;
+	color: #000;
+	transition: 1s;
+}
+nav > ul > li > a:hover{
+	color: #fff;
+}
+/*navigation-section start*/
+
+/* banner-header-section start*/
+header{
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+header div{
+    margin-top: 170px;
+}
+.header-content{
+    margin: 40px 0px 0px 20px;
+    color: #fff;
+}
+header h1 span{
+    color: #FEC608;
+}
+/* banner-header-section end*/
+
+/* about-section start*/
+.about-my-self img{
+    width: 100%;
+    height: 100%;
+}
+.about-my-self-text h1,h3{
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 10px grey;
+}
+.about-my-self-text p{
+    margin-top: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 180%;
+}
