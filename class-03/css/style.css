@@ -17,7 +17,7 @@ body{font-family: 'Doppio One', sans-serif;}
 
 [class*='col-']{
     float: left;
-     /* border: 1px solid gray; */
+    border: 1px solid gray;
 }
 [class*='col-5']{
     margin: 20px 0px 20px 6%;
@@ -56,6 +56,14 @@ body{font-family: 'Doppio One', sans-serif;}
 /* header-secton end */
 
 /*navigation-section start*/
+#logo-nav-bar{
+    overflow: hidden;
+    position: fixed;
+    /* background-color: #333; */
+    top: 0;
+    width: 100%;
+}
+
 nav > ul{
     list-style-type: none;overflow: hidden;
     position: -webkit-sticky; /* Safari */
@@ -82,10 +90,12 @@ nav > ul > li > a:hover{
 /*navigation-section start*/
 
 /* banner-header-section start*/
+#header-div{
+    margin-top: 50px;
+}
 header{
     background: url(../img/banner.jpg) no-repeat;
     background-size: cover;
-    opacity: 0.9;
 }
 header div{
     margin-top: 170px;
@@ -103,6 +113,9 @@ header h1 span{
 .about-my-self img{
     width: 100%;
     height: 100%;
+}
+#about{
+    transition: 2s;
 }
 .about-my-self-text h1,h3{
     margin-bottom: 20px;
