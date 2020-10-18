@@ -339,3 +339,13 @@ footer .text-two{
     margin-right: 50px;
     color: white;
 }
+
+
+/*Arror to up home page*/
+
+.arror-to-up{
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+}
