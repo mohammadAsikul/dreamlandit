@@ -93,9 +93,6 @@ nav > ul > li > a{
 nav > ul > li > a:hover{
 	color: #fff;
 }
-nav > ul > li > a:active{
-	color: #fff;
-}
 /*navigation-section start*/
 
 /* banner-header-section start*/
@@ -261,7 +258,7 @@ header h1 span{
     /* background: url(../img/port-img-02.PNG) no-repeat;
     background-size: cover;
     background: #f7d04c; */
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .port-box h3{
