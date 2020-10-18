@@ -236,8 +236,10 @@ header h1 span{
 .ser-box p{
     text-align: center;
 }
+/* Service Section End */
 
 
+/* Portfolio Section Start */
 .port-box-container{
     width: 90%;
     margin: auto;
@@ -275,7 +277,7 @@ header h1 span{
     line-height: 300px;
     color: white;
 }
-
+/* Portfolio Section End */
 
 /* Contact Section Start */
 .contact-us-box{
@@ -323,7 +325,10 @@ input[type="submit"]:hover{
     font-size: 15px;
     padding: 10px;
 }
+/* Contact Section End */
 
+
+/* Footer Section Start */
 footer{
     background: #4c4c4c;
 }
@@ -339,13 +344,4 @@ footer .text-two{
     margin-right: 50px;
     color: white;
 }
-
-
-/*Arror to up home page*/
-
-.arror-to-up{
-    width: 10px;
-    height: 10px;
-    background: #ccc;
-    border-radius: 50%;
-}
+/* Footer Section End */
