@@ -153,43 +153,32 @@ header h1 span{
     border-radius: 15px;
     line-height: 30px;
 }
-/* Web Design */
-.adobe-photoshop{
-    width: 70%;
+.col-padding-radius{
     border-radius: 15px 0px 0px 15px;
     background: #ffc608;
     padding: 0px 10px;
+}
+
+/* Web Design */
+
+.adobe-photoshop{
+    width: 70%;
 }
 .html-css{
     width: 95%;
-    border-radius: 15px 0px 0px 15px;
-    background: #ffc608;
-    padding: 0px 10px;
 }
 .twitter-bootstrap{
     width: 90%;
-    border-radius: 15px 0px 0px 15px;
-    background: #ffc608;
-    padding: 0px 10px;
 }
 /* Web Development */
 .javascript{
-    width: 70%;
-    border-radius: 15px 0px 0px 15px;
-    background: #ffc608;
-    padding: 0px 10px;
+    width: 80%;
 }
 .php{
-    width: 95%;
-    border-radius: 15px 0px 0px 15px;
-    background: #ffc608;
-    padding: 0px 10px;
+    width: 70%;
 }
 .wordpress{
-    width: 90%;
-    border-radius: 15px 0px 0px 15px;
-    background: #ffc608;
-    padding: 0px 10px;
+    width: 95%;
 }
 
 /* Resume Section Start*/
@@ -236,10 +225,8 @@ header h1 span{
 .ser-box p{
     text-align: center;
 }
-/* Service Section End */
 
 
-/* Portfolio Section Start */
 .port-box-container{
     width: 90%;
     margin: auto;
@@ -277,7 +264,7 @@ header h1 span{
     line-height: 300px;
     color: white;
 }
-/* Portfolio Section End */
+
 
 /* Contact Section Start */
 .contact-us-box{
@@ -325,10 +312,7 @@ input[type="submit"]:hover{
     font-size: 15px;
     padding: 10px;
 }
-/* Contact Section End */
 
-
-/* Footer Section Start */
 footer{
     background: #4c4c4c;
 }
@@ -344,4 +328,13 @@ footer .text-two{
     margin-right: 50px;
     color: white;
 }
-/* Footer Section End */
+
+
+/*Arror to up home page*/
+
+.arror-to-up{
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+}
