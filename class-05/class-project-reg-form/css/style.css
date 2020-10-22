@@ -1,0 +1,47 @@
+/* Global Attribute */
+*{ box-sizing: border-box; margin: 0; padding: 0;}
+
+/* Body Section */
+body{ background-color: #77E1EA;}
+
+/* Container Section */
+.form-container{ min-width: 800px;width: 70%; height: 800px; margin: 50px auto;}
+
+.information-container{ background:#3A86BF; width: 50%; height: 500px; float: left; border-radius: 10px 0px 0px 10px;}
+.information-container h1{ color: #ffffff; text-align: center; margin: 50px 15px 30px 30px;}
+.information-container p{ color: #9AC9EC; margin: 10px 30px; text-align: justify;}
+.information-container p span{color: #fff;}
+.login-page{ margin: 50px 0px; transition: .8s;}
+.login-page a{ text-align: center; text-decoration: none; line-height: 40px; padding: 20px; background: #fff; color: #3A86BF; margin-left: 30px; border-radius: 6px 0px 6px 0px; font-weight: 600;}
+.login-page a:hover{color: white; background: #3b7aaa; border-radius: 0px 6px 0px 6px;}
+
+
+.reg-container{ width: 50%; height: 500px; float: left; background: #fff; border-radius: 0px 10px 10px 0px;}
+.reg-container h1{ color: #3A86BF; text-align: center; margin: 50px 15px 30px 30px;}
+/* .reg-container label{ width: 50%; float: left;}
+.reg-container input[type="text"]{ width: 50%; float: left;} */
+form{ width: 90%; margin: auto;}
+.form-name-cont{ width: 100%; margin-bottom: 20px;}
+/* first-name-section */
+.form-name-cont .fname{ width: 48.5%; margin-right: 1.5%; float: left;}
+.form-name-cont .fname input{ width: 100%; padding: 5px 0px;}
+/* last-name-section */
+.form-name-cont .lname{ width: 48.5%; margin-left: 1.5%; margin-bottom: 20px; float: left;}
+.form-name-cont .lname input{ width: 100%; padding: 5px 0px;}
+/* email-section */
+.form-email-div{ margin: 20px 0px;}
+.form-email-div label{ width: 100%; display: block;}
+.form-email-div input{ width: 100%; display: block; padding: 5px 0px;}
+/* password-section */
+/* .form-pass-cont{ margin: 0px 0px 20px 0px;} */
+.form-pass-cont .pass{ width: 48.5%; margin-right: 1.5%; float: left;}
+.form-pass-cont .pass input{ width: 100%; padding: 5px 0px;}
+/* confirm-password-section */
+.form-pass-cont .conPass{ width: 48.5%; margin-right: 1.5%; float: left;}
+.form-pass-cont .conPass input{ width: 100%; padding: 5px 0px;}
+/* checkbox-section */
+input[type="checkbox"]{margin: 25px 0px;}
+
+input[type="submit"]{width: 120px; height: 40px; background: #3786BE; color: #fff; font-weight: 600; border: none; border-radius: 6px 0px 6px 0px; transition: 0.8s;}
+
+input[type="submit"]:hover{ background: #B395BF; color: black; border-radius: 0px 6px 0px 6px;}
