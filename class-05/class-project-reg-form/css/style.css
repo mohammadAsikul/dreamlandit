@@ -5,7 +5,7 @@
 body{ background-color: #77E1EA;}
 
 /* Container Section */
-.form-container{ min-width: 800px;width: 70%; height: 800px; margin: 50px auto;}
+.form-container{ min-width: 800px;width: 70%; height: 800px; margin: 70px auto;}
 
 .information-container{ background:#3A86BF; width: 50%; height: 500px; float: left; border-radius: 10px 0px 0px 10px;}
 .information-container h1{ color: #ffffff; text-align: center; margin: 50px 15px 30px 30px;}
