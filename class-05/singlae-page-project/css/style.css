@@ -20,7 +20,7 @@
 
 [class*='col-']{
     float: left;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 .row::after{
     content: ' ';
