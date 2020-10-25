@@ -35,7 +35,7 @@
 .main-sec-cont-two-height{ height: 400px;}
 .main-sec-cont-three-height{ height: 600px;}
 .client-say-sec-height{ height: 620px;}
-.about-section-height{ height: 500px;}
+.about-section-height{ height: 420px;}
 .contact-us-height{ height: 400px;}
 
 /* global-class-element */
@@ -359,7 +359,6 @@ nav ul li a:hover{
 }
 /* form-section */
 .contact-us-form{
-    border: 1px solid white;
     margin: 50px 8.33% 50px 0%;
 }
 .contact-us-form form input{
