@@ -31,7 +31,7 @@
 /* All Section Height */
 .header-top-height{ height: 40px;}
 .navigation-height{ height: 100px;}
-.header-bottom-height{ height: 520px;}
+.header-bottom-height{ height: 620px;}
 .main-sec-cont-two-height{ height: 400px;}
 .main-sec-cont-three-height{ height: 600px;}
 .client-say-sec-height{ height: 620px;}
@@ -129,16 +129,16 @@ nav ul li a:hover{
     background-size: cover;
 }
 .content-container{
-    margin: 250px 0px 0px 100px;
+    margin: 350px 0px 0px 100px;
 }
 .content-container h1{
+    text-align: left;
     font-size: 40px;
     margin-bottom: 20px;
     /* color: #0285CB; */
 }
 .content-container p{
     color: #D8DBE0;
-    
     margin-bottom: 20px;
 }
 /* .content-container button{
