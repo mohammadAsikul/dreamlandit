@@ -20,7 +20,7 @@
 
 [class*='col-']{
     float: left;
-    /* border: 1px solid gray; */
+    /* border: 1px solid grey; */
 }
 .row::after{
     content: ' ';
@@ -36,7 +36,9 @@
 .main-sec-cont-three-height{ height: 600px;}
 .client-say-sec-height{ height: 620px;}
 .about-section-height{ height: 420px;}
-.contact-us-height{ height: 400px;}
+.contact-us-height{ height: 350px;}
+.big-footer-height{ height: 500px;}
+.footer-sec-container{ height: 50px;}
 
 /* global-class-element */
 button{
@@ -51,6 +53,9 @@ button{
 button:hover{
     background: #fff;
     color: #0174B3;
+}
+p{
+    color: #7B7B7B;
 }
 
 
@@ -152,7 +157,7 @@ nav ul li a:hover{
 } */
 /* header-bottom-section-end */
 
-/* main-content-section start */
+/* main-content-section start */ /*939393*/
 .main-section-header{
     margin: 50px 0px 10px 0px;
 }
@@ -160,6 +165,9 @@ nav ul li a:hover{
     color: #0385C9;
     font-size: 30px;
     text-align: center;
+}
+.main-section-content p{
+    
 }
 /* main-content-border-section */
 .main-section-border{    
@@ -180,6 +188,7 @@ nav ul li a:hover{
 }
 .main-section-content p{
     text-align: center;
+    color: #757474;
 }
 /* main-content-section end*/
 
@@ -257,14 +266,15 @@ nav ul li a:hover{
 .img-cont img{
     width: 100%;
 }
-.header-cont h3{
+.team-mem-box .header-cont h3{
     text-align: center;
     color: #0274b2;
     padding: 10px 0px;
 }
-.header-cont p{
+.team-mem-box .header-cont p{
     text-align: center;
     padding: 5px 10px;
+    color: #000;
 }
 /* main-content-section three end */
 
@@ -295,6 +305,8 @@ nav ul li a:hover{
 .service-sec-box p{
     text-align: center;
     margin: 15px 0px;
+    padding: 5px;
+    color: #939393;
 }
 /* service-section-end */
 
@@ -314,10 +326,10 @@ nav ul li a:hover{
 .client-say-sec-content{
     color: #9AD2E0;
 }
-.img-container{
+.client-say-img-container{
     margin: 40px 41.65%;
 }
-.img-container img{
+.client-say-img-container img{
     border-radius: 150px 150px;
 }
 .button{
@@ -336,6 +348,7 @@ nav ul li a:hover{
 .about-sec-content p{
     text-align: center;
     padding: 10px 0px;
+    color: #000;
 }
 /* about-us-section-end */
 
@@ -364,16 +377,100 @@ nav ul li a:hover{
 .contact-us-form form input{
     width: 48%;
     margin: 7px 0.8%;
-    padding: 5px;
+    padding: 10px;
     font-size: 14px;
     color: #5E5E5E;
 }
 .contact-us-form form textarea{
     margin: 7px 0.8%;
     width: 98%;
+    padding: 10px 5px;
+    font-size: 16px;
 }
 .contact-us-form form input[type="submit"]{
     width: 16%;
     font-weight: 600;
 }
 /* contact-us-section-end */
+
+/* big-footer-section-start */
+.big-footer-container{
+    background: #363A43;
+}
+.big-footer-content-container{
+    margin: 80px 8.33%;
+}
+.footer-cont-box{
+    margin: 0px 2.0825%;
+    padding: 0px 30px;
+
+    /* border: 1px solid white; */
+    border-left: 1px solid #fff;
+}
+.footer-cont-box:first-child{
+    border-left: none;
+}
+.footer-cont-box h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-cont-box a, p{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0px;
+}
+.bg-f-box-one > p{
+    margin-bottom: 20px;
+}
+.bg-f-box-one address p{
+    padding: 5px 0px;
+}
+/* news letter section start */
+.bg-f-box-four{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.bg-f-box-four form{
+    margin: 20px 0px ;
+}
+.bg-f-box-four form input[type="email"]{
+    width: 75%;
+    border: none;
+    font-size: 14px;
+}
+.bg-f-box-four form input[type="submit"]{
+    width: 23%;
+    background: #1766B5;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+.bg-f-box-four form input[type="submit"]:hover{
+    color: rgb(209, 204, 204);
+}
+.bg-f-box-four form input{
+    padding: 20px 5px;
+}
+/* big-footer-social-icon-start */
+.bg-f-social-icon{
+    margin-top: 30px;
+    color: #fff;
+}
+.bg-f-social-icon span{
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.bg-f-social-icon span:hover{
+    color: #548cc4;
+}
+/* big-footer-social-icon-end */
+
+/*Footer Section*/
+footer .footer-sec-container{
+    background: #363A43;
+}
+footer .footer-sec-container p{
+    text-align: center;
+    padding-top: 15px;
+}
