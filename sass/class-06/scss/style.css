@@ -55,7 +55,7 @@
 
 [class*='col-'] {
   float: left;
-  /* border: 1px solid grey; */
+  border: 1px solid grey;
 }
 
 .row::after {
@@ -74,11 +74,11 @@
 }
 
 .service-sec-height {
-  height: 880px;
+  height: 800px;
 }
 
 .company-info-sec-height {
-  height: 530px;
+  height: 480px;
 }
 
 .app-presentation-sec-height {
@@ -293,6 +293,20 @@
 .com-info-sec-container .com-info-box {
   height: 100%;
   background: #323a4d;
+}
+
+.com-info-sec-container .com-info-content-container {
+  margin-left: 8.33%;
+  background: #f5f6fa;
+}
+
+.com-info-sec-container .com-info-content-container .com-info-heding {
+  margin: 110px 40% 30px 0;
+}
+
+.com-info-sec-container .com-info-content-container .com-info-content {
+  line-height: 28px;
+  color: #97a4be;
 }
 
 /*company-info-section-end*/

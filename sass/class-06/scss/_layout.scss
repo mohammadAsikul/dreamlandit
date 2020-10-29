@@ -15,7 +15,7 @@
 
 [class*='col-']{
     float: left;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 .row::after{
     content: ' ';
@@ -26,8 +26,8 @@
 /* All Section Height */
 .header-top-height{ height: 70px;}
 .header-bottom-height{ height: 630px;}
-.service-sec-height{ height: 880px;}
-.company-info-sec-height{ height: 530px;}
+.service-sec-height{ height: 800px;}
+.company-info-sec-height{ height: 480px;}
 .app-presentation-sec-height{ height: 1650px;}
 .video-sec-height{ height: 680px;}
 .download-sec-height{ height: 650px;}
