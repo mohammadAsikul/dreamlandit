@@ -174,3 +174,106 @@
     }
 }
 /*company-info-section-end*/
+/*app-presentation-section-start*/
+.app-presentation-sec-container{
+
+    .app-presentation-box-container{
+        margin-top: 120px;
+
+        .app-per-container-box{
+            text-align: right;
+            padding-left: 20%;
+
+            h1{
+                margin-bottom: 50px;
+            }
+            p{
+                line-height: 25px;
+                color: $com-info-content-color;
+                text-align: justify;
+                margin-bottom: 50px;
+            }
+            a{
+                border-radius: 6px;
+                border: 1px solid #c4c8ce;
+                color: $btn-text-color;
+                background: $btn-bg-color;
+                font-size: 13.8px;
+                font-weight: 600;
+                line-height: 40px;
+                padding: 11px 33px;
+                text-decoration: none;
+            }
+        }
+        .app-per-img-box{
+            img{
+                margin: 0px 0px 0px 30px;
+            }
+        }
+    }
+    .app-presentation-box-container-two{
+        margin: 60px 0px;
+        color: $app-pre-text-color;
+        
+        .app-pre-img-container{
+            
+            img{
+                margin: 0px 0px 0px 30%;
+            }
+        }
+        .app-pre-content-box-container{
+
+            .app-pre-box{
+                width: 75%;
+                height: 80px;
+                margin: 30px 0px 20px 6%;
+                box-shadow: 0px 10px 10px -15px #111;
+
+                .app-pre-box-icon{
+                    height: 100%;
+                    margin-left: 8%;
+
+                    i{
+                        font-size: 28px;
+                        padding: 25px 0px;
+                        color: $app-pre-icon-color;
+                    }
+                }
+                .app-pre-box-cont{
+                    h3{
+                        padding: 28px 0px 0px 10px;
+                    }
+                }
+            }
+            .app-bg-color{
+                background: $app-bg-color;
+            }
+        }
+    }
+    .app-pre-everything-container{
+
+        .app-pre-et-box{
+            text-align: right;
+            padding-left: 20%;
+
+            h1{
+                margin-bottom: 40px;
+            }
+            .app-pre-checkbox{
+                text-align: left;
+                padding-left: 70%;
+                margin: 5px 0px;
+            }
+            .app-pre-checkbox-two{
+                margin-bottom: 40px;
+            }
+            p{
+                line-height: 25px;
+                color: $com-info-content-color;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+/* app-presentation-section-end*/

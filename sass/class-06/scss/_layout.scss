@@ -28,7 +28,15 @@
 .header-bottom-height{ height: 630px;}
 .service-sec-height{ height: 800px;}
 .company-info-sec-height{ height: 480px;}
-.app-presentation-sec-height{ height: 1650px;}
+.app-presentation-sec-height{
+     height: 1650px;
+     .app-presentation-box{
+         height: 550px;
+     }
+     .app-pre-everything-container{
+         height: 500px;
+     }
+}
 .video-sec-height{ height: 680px;}
 .download-sec-height{ height: 650px;}
 .quote-sec-height{ height: 350px;}
