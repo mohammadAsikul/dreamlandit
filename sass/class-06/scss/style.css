@@ -289,4 +289,11 @@
 }
 
 /* service-sec-end */
+/*company-info-section-start*/
+.com-info-sec-container .com-info-box {
+  height: 100%;
+  background: #323a4d;
+}
+
+/*company-info-section-end*/
 /*# sourceMappingURL=style.css.map */
