@@ -642,4 +642,30 @@
 }
 
 /* big-footer-section-end*/
+/*footer-section-start*/
+.footer-container {
+  background: #223047;
+}
+
+.footer-container .footer-content-container {
+  color: #00fff0;
+}
+
+.footer-container .footer-content-container p {
+  float: left;
+  line-height: 100px;
+  margin-left: 200px;
+}
+
+.footer-container .footer-content-container .footer-social-media-icon {
+  float: right;
+}
+
+.footer-container .footer-content-container .footer-social-media-icon i {
+  font-size: 28px;
+  padding: 0px 10px;
+  line-height: 100px;
+}
+
+/*footer-section-end*/
 /*# sourceMappingURL=style.css.map */

@@ -479,3 +479,25 @@
     }
 }
 /* big-footer-section-end*/
+/*footer-section-start*/
+.footer-container{
+    background: $video-sec-bg-color;
+    .footer-content-container{
+        color: $footer-text-color;
+        p{
+            float: left;
+            line-height: 100px;
+            margin-left: 200px;
+        }
+        .footer-social-media-icon{
+            float: right;
+
+            i{
+                font-size: 28px;
+                padding: 0px 10px;
+                line-height: 100px;
+            }
+        }
+    }
+}
+/*footer-section-end*/
