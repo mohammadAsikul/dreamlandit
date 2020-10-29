@@ -105,11 +105,11 @@
 }
 
 .app-add-sec-height {
-  height: 800px;
+  height: 600px;
 }
 
 .big-footer-sec-height {
-  height: 800px;
+  height: 550px;
 }
 
 .footer-sec-height {
@@ -489,10 +489,12 @@
 
 .download-part-container .download-part-containt-box h1 {
   margin-bottom: 40px;
+  color: #233148;
 }
 
 .download-part-container .download-part-containt-box p {
   margin-bottom: 70px;
+  color: #233148;
 }
 
 .download-part-container .download-part-containt-box a {
@@ -508,4 +510,136 @@
 }
 
 /* download-part-section-end*/
+/* quote-section-start*/
+.quote-section-container {
+  background: #223047;
+}
+
+.quote-section-container .quote-section-content-box {
+  margin: 120px 25%;
+}
+
+.quote-section-container .quote-section-content-box p {
+  text-align: center;
+  color: #fff;
+  line-height: 25px;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+/* quote-section-end*/
+/* app-add-section-start*/
+.app-add-container {
+  margin: 80px 0px;
+}
+
+.app-add-container .app-img-container .app-img-box {
+  margin: 0px 0px 0px 33.33%;
+  position: relative;
+}
+
+.app-add-container .app-img-container .app-img-box .app-img-one {
+  height: 420px;
+  position: absolute;
+  top: 65px;
+  left: 160px;
+}
+
+.app-add-container .app-img-container .app-img-box .app-img-two {
+  height: 500px;
+  position: absolute;
+}
+
+.app-add-container .app-content-container {
+  text-align: left;
+  margin: 110px 0px 0px 50%;
+  padding: 0px 30px;
+}
+
+.app-add-container .app-content-container h1 {
+  color: #233148;
+  margin: 0px 0px 40px 0px;
+}
+
+.app-add-container .app-content-container p {
+  color: #a4afc6;
+  margin: 0px 0px 50px 0px;
+}
+
+.app-add-container .app-content-container .app-store-img .app-store-img-one {
+  border-radius: 4px;
+}
+
+.app-add-container .app-content-container .app-store-img .app-store-img-two {
+  border-radius: 4px;
+  margin: 0px 5%;
+}
+
+.app-add-container .app-sec-get-app-button {
+  height: 100px;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.app-add-container .app-sec-get-app-button button {
+  width: 250px;
+  height: 55px;
+  border-radius: 6px;
+  border: none;
+  background: #00fff0;
+  color: #233148;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* app-add-section-end*/
+/* big-footer-section-start*/
+.big-footer-section-container .big-footer-section-box-container {
+  margin: 0px 8.33%;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-container-box {
+  margin-left: 3.332%;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-container-box h3 {
+  margin: 20px 0px;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-container-box a {
+  display: block;
+  margin: 10px 0px;
+  text-decoration: none;
+  color: #97a4be;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-get-in-tuch-bar {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-get-in-tuch-bar h1 {
+  color: #233148;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-get-in-tuch-bar p {
+  color: #a5b0c7;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-count-me-btn {
+  margin: 80px 0px;
+  text-align: center;
+}
+
+.big-footer-section-container .big-footer-section-box-container .big-footer-count-me-btn button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background: #00fff0;
+  color: #233148;
+  font-weight: 600;
+}
+
+/* big-footer-section-end*/
 /*# sourceMappingURL=style.css.map */
