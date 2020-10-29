@@ -253,6 +253,7 @@
     .app-pre-everything-container{
 
         .app-pre-et-box{
+            margin-top: 100px;
             text-align: right;
             padding-left: 20%;
 
@@ -273,7 +274,86 @@
                 text-align: justify;
             }
         }
+        .app-pre-et-box-two{
+            position: relative;
+
+            .app-pre-only-box-one{
+                height: 300px;
+                width: 200px;
+                left: 150px;
+                top: 150px;
+            }
+            .app-pre-only-box-two{
+                height: 280px;
+                width: 200px;
+                left: 350px;
+                top: 170px;
+            }
+            .app-pre-only-box-three{
+                height: 450px;
+                width: 200px;
+                background: #2c3233;
+                left: 250px;
+            }
+            .app-pre-only-boxs{
+                box-shadow: 0px 1px 25px 1px #111;
+                float: left;
+                position: absolute;
+            }
+        }
     }
 }
 
 /* app-presentation-section-end*/
+/* video-section-start*/
+.video-sec-container{
+    background: $video-sec-bg-color;
+
+    .video-sec-box-container{
+        margin: 0px 25%;
+
+        .video-sec-logo{
+            color: $video-sec-icon-color;
+            font-size: 100px;
+            margin: 20% 0% 40px 43%;
+        }
+        h3{
+            text-align: center;
+            color: $font-color;
+            margin: 30px;
+        }
+        p{
+            color: $font-color;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+}
+/* video-section-end*/
+/* download-part-section-start*/
+
+.download-part-container{
+    background: white;
+    .download-part-containt-box{
+        margin: 150px 25%;
+        text-align: center;
+        h1{
+            margin-bottom: 40px;
+        }
+        p{
+            margin-bottom: 70px;
+        }
+        a{
+            border-radius: 6px;
+            border: 1px solid #c4c8ce;
+            color: $btn-text-color;
+            background: $btn-bg-color;
+            font-size: 13.8px;
+            font-weight: 600;
+            line-height: 40px;
+            padding: 11px 33px;
+            text-decoration: none;
+        }
+    }
+}
+/* download-part-section-end*/

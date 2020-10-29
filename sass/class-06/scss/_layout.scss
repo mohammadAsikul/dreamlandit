@@ -15,7 +15,7 @@
 
 [class*='col-']{
     float: left;
-    border: 1px solid grey;
+    // border: 1px solid gray;
 }
 .row::after{
     content: ' ';
@@ -29,7 +29,7 @@
 .service-sec-height{ height: 800px;}
 .company-info-sec-height{ height: 480px;}
 .app-presentation-sec-height{
-     height: 1650px;
+     height: 1700px;
      .app-presentation-box{
          height: 550px;
      }
@@ -37,8 +37,10 @@
          height: 500px;
      }
 }
-.video-sec-height{ height: 680px;}
-.download-sec-height{ height: 650px;}
+.video-sec-height{
+     height: 580px;
+    }
+.download-sec-height{ height: 500px;}
 .quote-sec-height{ height: 350px;}
 .app-add-sec-height{ height: 800px;}
 .big-footer-sec-height{ height: 800px;}
