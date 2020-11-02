@@ -1,0 +1,9 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template: repeat(5, 1fr) repeat(12, 1fr);
+}
+.header{
+    background: #ecf1f5;
+}
